@@ -1,0 +1,6 @@
+print('What is Bitcoin price today?')
+bitcoin_exchange_rate =float(input(''))
+print('How much $ do you have?')
+dollar_sum =float(input(''))
+user_bitcoins_sum = float(dollar_sum/bitcoin_exchange_rate)
+print('You can buy',round(user_bitcoins_sum,8),'BTC')
